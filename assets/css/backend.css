@@ -1,0 +1,168 @@
+.wpcdpk {
+    z-index: 999999 !important;
+}
+
+.only-time .wpcdpk--nav, .only-time .wpcdpk--content {
+    display: none !important;
+}
+
+.only-time .wpcdpk--time {
+    border-top: none !important;
+}
+
+.wooct_tab a:before {
+    content: '\f469' !important;
+}
+
+#wooct_settings {
+    box-sizing: border-box;
+}
+
+#wooct_settings * {
+    box-sizing: border-box;
+}
+
+#wooct_settings input[type="search"], #wooct_settings input[type="text"], #wooct_settings input[type="number"] {
+    display: inline-block;
+    box-shadow: none !important;
+    border-radius: 2px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 0 5px 0 0 !important;
+    border: 1px solid #7e8993 !important;
+    box-sizing: border-box;
+    background-color: #fff !important;
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-appearance: none;
+}
+
+#wooct_settings .wooct_current_time {
+    padding: 12px;
+    font-size: 12px;
+    border-bottom: 1px dashed #eee;
+}
+
+#wooct_settings .wooct_table {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#wooct_settings table {
+    width: 100%;
+}
+
+#wooct_settings table tr th, #wooct_settings table tr td {
+    padding: 5px 12px;
+}
+
+#wooct_settings table tr th {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    width: 150px;
+}
+
+#wooct_settings table tr td {
+    text-align: left;
+}
+
+#wooct_settings table tr td div {
+    display: inline-block;
+    width: 100%;
+}
+
+.wooct_time_input, .wooct_date_input, .wooct_date_time_input {
+    padding-left: 40px !important;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.wooct_time_input {
+    width: 140px !important;
+    background-image: url('../images/time_bg.jpg');
+}
+
+.wooct_date_time_input {
+    width: 200px !important;
+    background-image: url('../images/time_bg.jpg');
+}
+
+.wooct_date_input {
+    width: 240px !important;
+    background-image: url('../images/date_bg.jpg');
+}
+
+.wooct_time_input:focus {
+    background-image: url('../images/time_hover_bg.jpg');
+    border-color: #2c4b81 !important;
+    box-shadow: none !important;
+}
+
+.wooct_date_input:focus, .wooct_date_time_input:focus {
+    background-image: url('../images/date_hover_bg.jpg');
+    border-color: #2c4b81 !important;
+    box-shadow: none !important;
+}
+
+.wooct-icon {
+    opacity: .3;
+}
+
+.wooct-icon.running {
+    opacity: 1;
+}
+
+.active[data-slug="wpc-countdown-timer"] .premium a {
+    color: #c9356e;
+}
+
+/* Variation */
+
+.wooct-variation-settings {
+    margin: 1em 0;
+}
+
+.wooct-variation-settings label {
+    display: block;
+}
+
+.wooct-variation-wrap {
+    margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    position: relative;
+}
+
+.wooct-variation-wrap:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fafafa;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #8c8f94;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}
+
+.wooct-variation-wrap table {
+    background: none !important;
+    border: none !important;
+}
+
+.wooct-variation-wrap table tr th {
+    width: 100px;
+    text-align: start;
+    font-weight: 400;
+}

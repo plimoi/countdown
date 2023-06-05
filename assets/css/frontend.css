@@ -1,0 +1,132 @@
+/* style 01 */
+
+.wooct-countdown.wooct-style-01 .wooct-timer {
+    font-weight: 700;
+    color: #ff6600;
+}
+
+/* style 02 */
+
+.wooct-countdown.wooct-style-02 .wooct-timer {
+    display: flex;
+    align-items: center;
+    max-width: 360px;
+}
+
+.wooct-countdown.wooct-style-02 .wooct-timer > span {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    border: 1px solid #ff6600;
+    padding: 10px 6px;
+    margin: 0 2px;
+    line-height: 1;
+    text-align: center;
+}
+
+.wooct-countdown.wooct-style-02 .wooct-timer > span span:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff6600;
+    margin-bottom: 5px;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.wooct-countdown.wooct-style-02 .wooct-timer > span span:last-child {
+    font-size: 10px;
+    text-transform: uppercase;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+/* style 03 */
+
+.wooct-countdown.wooct-style-03 .wooct-timer {
+    display: flex;
+    align-items: center;
+    max-width: 360px;
+}
+
+.wooct-countdown.wooct-style-03 .wooct-timer > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ff6600;
+    padding: 5px;
+    margin: 0 2px;
+    line-height: 1;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wooct-countdown.wooct-style-03 .wooct-timer > span span:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff6600;
+    margin-bottom: 5px;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.wooct-countdown.wooct-style-03 .wooct-timer > span span:last-child {
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+/* style 06 */
+
+.wooct-countdown.wooct-style-06 .wooct-timer {
+    display: flex;
+    align-items: center;
+    max-width: 360px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.wooct-countdown.wooct-style-06 .wooct-timer > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 3px solid #ff6600;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid #ff6600;
+    border-left: 3px solid #ff6600;
+    padding: 5px;
+    margin: 0 5px;
+    line-height: 1;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+.wooct-countdown.wooct-style-06 .wooct-timer > span span:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff6600;
+    margin: 0;
+    border: none;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.wooct-countdown.wooct-style-06 .wooct-timer > span span:last-child {
+    word-break: keep-all;
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+}
+
+/* style flipper */
+
+.wooct-flipper .flipper-dark label {
+    color: #222;
+}
